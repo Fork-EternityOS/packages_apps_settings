@@ -1,0 +1,2 @@
+# EternitySettings
+-keep class com.eternity.settings.**
