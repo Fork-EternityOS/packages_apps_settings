@@ -4492,8 +4492,7 @@
         <!-- Begin Eternity Settings -->
         <activity android:name="Settings$EternitySettingsLayoutActivity"
                 android:label="@string/eternity_settings_title"
-                android:exported="true"
-                android:icon="@drawable/ic_homepage_eternity"
+                android:icon="@drawable/ic_homepage_crdroid"
                 android:taskAffinity="com.android.settings"
                 android:parentActivityName="Settings">
             <intent-filter android:priority="1">
