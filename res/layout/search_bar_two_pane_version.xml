@@ -14,9 +14,13 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/search_bar_margin">
 
 <com.google.android.material.card.MaterialCardView
-    xmlns:android="http://schemas.android.com/apk/res/android"
     style="@style/SearchBarStyle"
     android:layout_width="0dp"
     android:layout_height="wrap_content"
@@ -41,3 +45,5 @@
             android:text="@string/search_menu"/>
     </Toolbar>
 </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>
